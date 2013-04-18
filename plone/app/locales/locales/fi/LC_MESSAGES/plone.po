@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plone-fi\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2013-04-18 19:38+0200\n"
+"PO-Revision-Date: 2013-04-18 22:15+0200\n"
 "Last-Translator: Jukka Ojaniemi <jukka.ojaniemi@jyu.fi>\n"
 "Language-Team: Finnish <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "${name} on varattu."
 
 #: CMFPlone/RegistrationTool.py:195
 msgid "${sentances}. ${sentance}"
-msgstr ""
+msgstr "${sentances}. ${sentance}"
 
 #: CMFPlone/skins/plone_login/logged_out.cpt:48
 msgid "${text_logged_out_link} and click 'Cancel' when prompted with an authentication prompt."
@@ -1878,7 +1878,7 @@ msgstr "Piilota tarkasteluelementit"
 
 #: plone/app/theming/browser/mapper.pt:827
 msgid "Hide the HTML mockup and content panels. Use these to discover and verify rule selectors."
-msgstr ""
+msgstr "Piilota HTML-hahmotelma ja sivuston sisältönäkymä -paneelit. Käytä näitä etsiäksesi ja todentaaksesi sääntöjen valitsimia."
 
 #. Default: "History"
 #: CMFPlone/profiles/default/types/Document.xml
@@ -2129,11 +2129,11 @@ msgstr "Onko tämä kohde näkyvissä sivuston sisältöpuussa?"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Is within"
-msgstr ""
+msgstr "jnkn sisällä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Is within (relative)"
-msgstr ""
+msgstr "jnkn sisällä (suhteellinen)"
 
 #. Default: "Item Type"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -2817,7 +2817,7 @@ msgstr "Sivu"
 
 #: plone/app/theming/interfaces.py:50
 msgid "Parameter expressions"
-msgstr ""
+msgstr "Parametrien lausekkeet"
 
 #: plone.app.iterate/plone/app/iterate/containers.py:64
 msgid "Parent folder"
@@ -3690,7 +3690,7 @@ msgstr "Näytä päivät"
 
 #: plone/app/theming/browser/mapper.pt:819
 msgid "Show inspectors"
-msgstr ""
+msgstr "Näytä tarkastelijanäkymät"
 
 #. Default: "Show internally"
 #: CMFPlone/profiles/default/workflows/intranet_folder_workflow/definition.xml
@@ -3716,7 +3716,7 @@ msgstr "Näytä sisällön tilat kirjautumattomille kävijöille"
 
 #: plone/app/theming/browser/mapper.pt:819
 msgid "Show the HTML mockup and content panels. Use these to discover and verify rule selectors."
-msgstr ""
+msgstr "Näytä HTML-hahmotelma ja sivuston sisältönäkymät. Voit käyttää näitä löytääksesi ja todentaaksesi sääntöjen valitsimien oikeellisuuden."
 
 #: CMFPlone/skins/plone_prefs/prefs_error_log_update.py:14
 msgid "Showing all entries"
@@ -4001,11 +4001,11 @@ msgstr "Tagit"
 
 #: CMFPlone/profiles/default/portal_atct.xml
 msgid "Tags are used for ad-hoc organization of content"
-msgstr "Tageja käytetään sisällön ad-hoc järjestelyyn."
+msgstr "Tageja käytetään sisällön tilapäiseen organisointiin."
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Tags are used for organization of content"
-msgstr "Tageja käytetään sisällön organisoimiseen"
+msgstr "Tageja käytetään sisällön organisointiin."
 
 #: plone.portlet.collection/plone/portlet/collection/collection.py:35
 msgid "Target collection"
@@ -4219,7 +4219,7 @@ msgstr "Sääntö on otettu käyttöön sivuston juuritasolla ja kaikissa alikan
 
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/manage-elements.pt:255
 msgid "The rule is enabled but will perform nothing since it is not assigned anywhere. <br /> Go to the folder where you want the rule to apply, or at the site root, click on 'rule' tab, and then locally setup the rules."
-msgstr ""
+msgstr "Tämä sääntö on otettu käyttöön, mutta se ei tee mitään sillä sitä ei ole kohdistettu minnekään. <br /> Mene kansioon, jossa haluat käyttää sääntöä, klikkaa 'Säännöt'-välilehteä ja aseta sääntö käyttöön."
 
 #. Default: "The short name of an item (used in the url)"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -4298,7 +4298,7 @@ msgstr "Linkin verkko-osoite"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "The user viewing the querystring results"
-msgstr ""
+msgstr "Käyttäjä joka katsoo kyselyn tuloksia"
 
 #: CMFPlone/RegistrationTool.py:82
 msgid "The username you entered could not be found."
@@ -4367,7 +4367,7 @@ msgstr "Tälle lisäosalle ei ole määritelty päivitysaskeleita. Katso tietoja
 
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/manage-elements.pt:172
 msgid "There is not any action performed by this rule. Click on Add button to setup an action."
-msgstr ""
+msgstr "Tässä säännössä ei ole määritelty yhtään toimintoa. Klikkaa 'Lisää' painiketta asettaaksesi uuden toiminnon."
 
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/manage-elements.pt:91
 msgid "There is not any additional condition checked on this rule."
@@ -4866,7 +4866,7 @@ msgstr "Kun edellinen siirtymä suoritettiin"
 
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/controlpanel.pt:55
 msgid "Whether or not content rules should be disabled globally. If this is selected, no rules will be executed anywhere in the portal."
-msgstr ""
+msgstr "Valinta, joka kytkee sisältösäännöt päälle/pois sivustonlaajuisesti. Jos tämä on valittu, kaikki sivuston sisältösäännöt ovat pois käytöstä."
 
 #: plone.contentrules/plone/contentrules/rule/interfaces.py:119
 msgid "Whether or not execution of further rules should stop after this rule is executed"
@@ -4888,11 +4888,11 @@ msgstr "Wiki-toiminnot"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Within last"
-msgstr ""
+msgstr "on viimeisten #pvm päivän sisällä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Within next"
-msgstr ""
+msgstr "on seuraavien #pvm päivän sisällä"
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:181
 msgid "Workflow"
@@ -5481,7 +5481,7 @@ msgstr "Käytä alla olevia kenttiä määritelläksesi Diazo-teeman asetukset. 
 #. Default: "The settings below control the presentation of the <em>content</em> produced by Plone before a Diazo theme is applied. Note that these settings will have an effect even if no Diazo theme is currently enabled."
 #: plone/app/theming/browser/controlpanel.pt:456
 msgid "description_advanced_base"
-msgstr ""
+msgstr "Alla olevilla asetuksilla hallitaan <em>sisällön</em> näyttämiseen liittyviä ominaisuuksia ennen kuin se teemoitetaan Diazo-teemalla. Huomaa, että nämä asetukset vaikuttavat sivustoon, vaikka Diazo-teema ei olisi tällä hetkellä käytössä."
 
 #. Default: "This search form enables you to find content on the site by specifying one or more search terms. <br /> Remember that you can use the quick search anytime, it's normally good enough, this search form is just if you want to be more specific."
 #: CMFPlone/skins/plone_deprecated/search_form.pt:19
@@ -5965,9 +5965,8 @@ msgstr "Vaadi yksi"
 
 #. Default: "Syndication enables you to syndicate this folder so it canbe synchronized from other web sites."
 #: CMFPlone/browser/syndication/views.py:48
-#, fuzzy
 msgid "description_syndication_properties"
-msgstr "Uutisvirrat mahdollistavat sisällön päivitysten seuraamisen RSS-selaimella tai muilla web-sivustoilla."
+msgstr "Uutisvirrat mahdollistaa tämän kansion syndikoinnin niin, että se voidaan synkronoida muilta WWW-sivustoilta. "
 
 #. Default: "Workflow, visibility and versioning settings for your content types."
 #: plone.app.controlpanel/plone/app/controlpanel/types.pt:23
@@ -6076,7 +6075,7 @@ msgstr "Evästeet eivät ole käytössä selaimessasi. Salli evästeet (cookies)
 #. Default: "Use this option to enable or disable the theme globally. Note that the options will also affect whether the theme is used when this option is enabled."
 #: plone/app/theming/interfaces.py:74
 msgid "enable_theme_globally"
-msgstr ""
+msgstr "Käytä tätä valintaa ottaaksesi teema käyttöön, tai pois käytöstä. Huomaa, että nämä asetukset vaikuttavat sivuston toimintaan aina huolimatta siitä onko teema käytössä vai ei."
 
 #. Default: "Enabled"
 #: plone/app/theming/interfaces.py:73
@@ -6096,7 +6095,7 @@ msgstr "Tämä teema on jo asennettu. Valitse 'Korvaa nykyinen teema' ja lataa u
 #. Default: "Please ensure you enter one expression per line, in the format <name> = <expression>."
 #: plone/app/theming/browser/controlpanel.py:130
 msgid "error_invalid_parameter_expressions"
-msgstr ""
+msgstr "Varmista, että kirjoitat yhden lausekkeen riviä kohden muodossa <nimi> = <lauseke>."
 
 #. Default: "The uploaded file is not a valid Zip archive"
 #: plone/app/theming/browser/controlpanel.py:192
@@ -6140,7 +6139,7 @@ msgstr "${startdate} loppuu ${linebreak} ${enddate}"
 
 #: CMFPlone/skins/plone_content/event_view.pt:37
 msgid "event_when_differentday_optional_word_between_date_and_time"
-msgstr ""
+msgstr "klo"
 
 #. Default: "${date} ${linebreak} from ${starttime} to ${endtime}"
 #: CMFPlone/skins/plone_content/event_view.pt:76
@@ -6160,7 +6159,7 @@ msgstr "Salasanan uusimisviestiä ei pystytty lähettämään seuraaville käytt
 #: plone.app.querystring/plone/app/querystring/results.pt:63
 #: plone.app.search/plone/app/search/search.pt:333
 msgid "filed under:"
-msgstr ""
+msgstr "Kuuluu seuraaviin kategorioihin:"
 
 #. Default: "Preview theme"
 #: plone/app/theming/browser/mapper.pt:802
@@ -7135,7 +7134,7 @@ msgstr "Kirjoita OpenID-osoitteesi kirjautuaksesi."
 #. Default: "You can define parameters that will be passed to the compiled theme here. In your rules file, you can refer to a parameter by <code>$name</code>. Parameters are defined using TALES expressions, which should evaluate to a string, a number, a boolean or None. Available variables are <code>context</code>, <code>request</code>, <code>portal</code>, <code>portal_state</code>, and <code>context_state</code>. Define one variable per line, in the format <code>name = expression</code>."
 #: plone/app/theming/browser/controlpanel.pt:428
 msgid "help_parameter_expressions"
-msgstr ""
+msgstr "Voit määritellä parametrejä, jotka välitetään käännetylle teemalle. Sääntötiedostossa voit viitata parametreihin <code>$nimi</code>:llä. Parametrin määritellään TALES-lausekkeina, joiden pitäisi evaluoitua merkkijonoksi, numeroksi, totuusarvoksi tai None:ksi. Saatavilla olevat muuttujat ovat <code>context</code>, <code>request</code>, <code>portal</code>, <code>portal_state</code> ja <code>context_state</code>. Määrittele yksi muuttuja riviä kohden muodossa <code>nimi = lauseke</code>"
 
 #. Default: "Enter your new password."
 #: plone.app.users/plone/app/users/browser/register.py:58
@@ -7202,7 +7201,7 @@ msgstr "Valitse tämä jos haluat, että käyttäjätunnuksesi valitaan seuraavi
 #. Default: "If body text available for item, render it, otherwise use description."
 #: CMFPlone/interfaces/syndication.py:231
 msgid "help_render_body"
-msgstr ""
+msgstr "Jos kohteen sisältöteksti on saatavilla, esitä se. Käytä kuvaustekstiä muissa tapauksissa."
 
 #. Default: "Select this option to replace any existing theme that may have been uploaded previously."
 #: plone/app/theming/browser/controlpanel.pt:784
@@ -7387,7 +7386,7 @@ msgstr "Valitse ladattava tiedosto."
 #. Default: "The theme base defines a collection of templates and other resources that makes up the raw content to which a theme is applied. Most Diazo themes will assume the default theme base, so only change this if you know what you are doing."
 #: plone/app/theming/browser/controlpanel.pt:469
 msgid "help_theme_base"
-msgstr ""
+msgstr "Teeman runko määrittelee kokoelman sivupohjia ja muita resursseja, joiden päälle teema rakennetaan. Useimmat Diazo-teemat olettavat oletusteeman olevan teeman runkona, joten varmista että tiedät mitä teet, jos muutat tätä asetusta."
 
 #. Default: "If enabled the currently configured Diazo theme (if any) will be applied."
 #: plone/app/theming/browser/controlpanel.pt:297
@@ -7397,7 +7396,7 @@ msgstr "Valitsemalla tämän nykyinen Diazo-teema otetaan käyttöön."
 #. Default: "If selected, the rule builder will use the elements you have currently selected in the <strong>HTML mockup</strong> and/or <strong>Unthemed content</strong> inspectors instead of prompting you to select new ones."
 #: plone/app/theming/browser/mapper.pt:1024
 msgid "help_theming_mapping_wizard_reuse_selectors"
-msgstr ""
+msgstr "Jos tämä on valittu, sääntöjen rakentaja käyttää <strong>HTML hahmotelma</strong> -ja/tai <strong>Teemoittamaton sisältö</strong> -tarkastelutiloissa valitsemiasi elementtejä sen sijaan, että pyytäisi sinua valitsemaan uudet elementit."
 
 #. Default: "Add http:// to link outside the site."
 #: widget description of StringWidget for label Event URL
@@ -7964,7 +7963,7 @@ msgstr "Käytössä?"
 #. Default: "event"
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/controlpanel.pt:124
 msgid "label_contentrules_rule_event"
-msgstr ""
+msgstr "tapahtuma"
 
 #. Default: "content rule"
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/controlpanel.pt:123
@@ -7974,7 +7973,7 @@ msgstr "sisältösääntö"
 #. Default: "unassigned"
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/controlpanel.pt:157
 msgid "label_contentrules_rule_unassigned"
-msgstr ""
+msgstr "kohdentamaton"
 
 #. Default: "Applies to subfolders?"
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/manage-assignments.pt:138
@@ -8009,7 +8008,7 @@ msgstr "Oikeudet"
 #. Default: "Create and apply new tags."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:127
 msgid "label_create_new_tags"
-msgstr "Luo ja ota käyttöön uusia avainsanoja"
+msgstr "Luo ja ota käyttöön uusia avainsanoja."
 
 #. Default: "Creation Date"
 #: Archetypes/ExtensibleMetadata.py:194
@@ -8288,7 +8287,7 @@ msgstr "Tapahtuma alkaa"
 #. Default: "Event Type(s)"
 #: widget label of KeywordWidget - description ""
 msgid "label_event_type"
-msgstr "Tapahtuman tyypit"
+msgstr "Tapahtumatyypit"
 
 #. Default: "Exception"
 #: CMFPlone/skins/plone_prefs/prefs_error_log_form.pt:92
@@ -8367,7 +8366,7 @@ msgstr "Hae ryhmä."
 #. Default: "The default page for this folder is also a folder. To add items to it, visit the default page's ${go_here} and use the add menu."
 #: plone.app.content/plone/app/content/browser/folder_contents.pt:64
 msgid "label_folder_contents_folder_default_page"
-msgstr ""
+msgstr "Tämän kansion oletussivu on kansiomainen. Mene oletussivun ${go_here} ja käytä 'lisää...' valikkoa lisätäksesi sisältöä oletussivun alle."
 
 #. Default: "folder contents view"
 #: plone.app.content/plone/app/content/browser/folder_contents.pt:64
@@ -8863,7 +8862,7 @@ msgstr "Tavallinen HTML-lomakepohjainen sisältöeditori (toimii kaikissa selaim
 #. Default: "Parameter expressions"
 #: plone/app/theming/browser/controlpanel.pt:427
 msgid "label_parameter_expressions"
-msgstr ""
+msgstr "Parametrien lausekkeet"
 
 #. Default: "Parent"
 #: plone.app.form/plone/app/form/widgets/ubermultiselectionwidget.pt:61
@@ -10146,12 +10145,12 @@ msgstr "tai lähetä tiedosto (nykyinen sisältö korvataan)"
 #. Default: "Parameter expressions"
 #: plone/app/theming/interfaces.py:130
 msgid "parameter_expressions"
-msgstr ""
+msgstr "Parametrien lausekkeet"
 
 #. Default: "You can define parameters here, which will be passed to the compiled theme. In your rules file, you can refer to a parameter by $name. Parameters are defined using TALES expressions, which should evaluate to a string, a number, a boolean or None. Available variables are `context`, `request`, `portal`, `portal_state`,  and `context_state`."
 #: plone/app/theming/interfaces.py:131
 msgid "parameter_expressions_description"
-msgstr ""
+msgstr "Voit määritellä parametrejä, jotka välitetään käännetylle teemalle. Sääntötiedostossa voit viitata parametriin $name:llä. Parametrit määritellään käyttämällä TALES-lausekkeita, joiden pitäisi evaluoitua merkkijonoksi, numeroksi, totuusarvoksi tai None:ksi. Saatavilla olevat muuttujat ovat `context`, `request`, `portal`, `portal_state` ja `context_state`."
 
 #. Default: "pending"
 #: workflow state defined in plone_workflow - title Pending
@@ -10682,47 +10681,47 @@ msgstr "Valinnat:"
 #. Default: "You are using Internet Explorer. The theme mapper will work, but some functionality will not be available. We recommend that you use Mozilla Firefox or Google Chrome instead."
 #: plone/app/theming/browser/mapper.pt:782
 msgid "theming_mapper_warning_ie"
-msgstr ""
+msgstr "Näytät käyttävän Internet Explorer -selainta. Teeman luontivelho toimii Internet Explorerilla, mutta osa toiminnallisuudesta ei ole käytettävissä. Suosittelemme, että käytät Mozilla Firefox:ia tai Google Chromea."
 
 #. Default: "This theme is currently active. Any changes made will be immediately reflected on the live site."
 #: plone/app/theming/browser/mapper.pt:750
 msgid "theming_mapper_warning_live"
-msgstr ""
+msgstr "Tämä teema on tällä hetkellä käytössä. Kaikki muutokset näkyvät välittömästi sivustolla."
 
 #. Default: "This wizard will help you build a Diazo rule by selecting relevant elements using the <strong>HTML mockup</strong> and <strong>Unthemed content</strong> inspectors."
 #: plone/app/theming/browser/mapper.pt:981
 msgid "theming_mapper_wizard_step1"
-msgstr ""
+msgstr "Tämä velho auttaa sinua valitsemaan oleelliset elementit Diazo sääntötiedostoa varten <strong>HTML hahmotelma</strong> ja <strong>Teemoittamaton sisältö</strong> -tarkastelutilojen avulla."
 
 #. Default: "The rule can be found below. Use the checkboxes to further refine it."
 #: plone/app/theming/browser/mapper.pt:1057
 msgid "theming_mapper_wizard_step2"
-msgstr ""
+msgstr "Sääntö löytyy alhaalta. Käytä valintaruutuja tarkentaaksesi sitä."
 
 #. Default: "Insert an element from the content <strong>after</strong> an element in the theme"
 #: plone/app/theming/browser/mapper.pt:1002
 msgid "theming_mapping_wizard_after"
-msgstr ""
+msgstr "Aseta sisältöelementti teemaelementin <strong>jälkeen</strong>"
 
 #. Default: "Insert an element from the content <strong>before</strong> an element in the theme"
 #: plone/app/theming/browser/mapper.pt:996
 msgid "theming_mapping_wizard_before"
-msgstr ""
+msgstr "Aseta sisältöelementti <strong>ennen</strong> teemaelementtiä"
 
 #. Default: "<strong>Drop</strong> an element in the <strong>content</strong>"
 #: plone/app/theming/browser/mapper.pt:1008
 msgid "theming_mapping_wizard_drop_content"
-msgstr ""
+msgstr "<strong>Jätä pois</strong> elementti <strong>sisällössä</strong>"
 
 #. Default: "<strong>Drop</strong> an element in the <strong>theme</strong>"
 #: plone/app/theming/browser/mapper.pt:1014
 msgid "theming_mapping_wizard_drop_theme"
-msgstr ""
+msgstr "<strong>Jätä pois</strong> elementti <strong>teemassa</strong>"
 
 #. Default: "<strong>Replace</strong> an element of the theme with an element from the content"
 #: plone/app/theming/browser/mapper.pt:990
 msgid "theming_mapping_wizard_replace"
-msgstr ""
+msgstr "<stong>Korvaa</strong> teemassa oleva elementti sisällöstä poimitulla elementillä"
 
 #. Default: "Use selected elements"
 #: plone/app/theming/browser/mapper.pt:1021
