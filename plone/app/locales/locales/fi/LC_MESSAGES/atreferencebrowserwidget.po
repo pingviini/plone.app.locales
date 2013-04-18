@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: atreferencebrowserwidget-fi\n"
 "POT-Creation-Date: 2013-04-06 12:09+0000\n"
-"PO-Revision-Date: 2010-04-16 11:49+0200\n"
+"PO-Revision-Date: 2013-04-18 19:32+0200\n"
 "Last-Translator: Jukka Ojaniemi <jukka.ojaniemi@jyu.fi>\n"
-"Language-Team: <en@li.org>\n"
+"Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -63,7 +63,7 @@ msgstr "Hakuindeksi"
 #. Default: "Search Site"
 #: archetypes/referencebrowserwidget/browser/popup.pt:76
 msgid "referencebrowser_search_site"
-msgstr ""
+msgstr "Etsi sivustolta"
 
 #. Default: "Added"
 #: archetypes/referencebrowserwidget/browser/popup.pt:29
@@ -73,5 +73,5 @@ msgstr "Viittaus lisätty:"
 #. Default: "Removed"
 #: archetypes/referencebrowserwidget/browser/popup.pt:37
 msgid "referencebrowser_text_removed_reference"
-msgstr ""
+msgstr "Poistettu"
 
